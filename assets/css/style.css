@@ -1,3 +1,12 @@
-h1 {
-    color: red;
+body {
+    color: rgba(65, 174, 225, 0.986);
 }
+
+.logo {
+    background: url(/images/logo.png) 0 0 no-repeat;
+    width: 268px;
+    height: 96px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
