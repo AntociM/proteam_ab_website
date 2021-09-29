@@ -1,6 +1,15 @@
-body {
-    color: rgba(65, 174, 225, 0.986);
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    margin: o;
+    padding: 0;
+    border: none;
 }
+
+body {
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    }
 
 #logo {
     width: 268px;
