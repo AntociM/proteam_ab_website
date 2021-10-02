@@ -10,7 +10,9 @@
 body {
     font-family: Lora, serif;
     font-weight: 400;
+    color: red;
 }
+/* Logo and headings */
 
 h1,
 h2 {
@@ -32,26 +34,43 @@ h2 {
 
 #menu {
     font-size: 120%;
-    letter-spacing: 2px;
-    color: red;
+    letter-spacing: 4px;
     z-index: 1000;
+    font-weight: bolder;
 }
 
 #menu li {
     float: right;
     margin-right: 20px;
     list-style-type: none;
+    
+}
+
+#menu a {
+    text-decoration: none;   
+    color:rgb(11, 11, 65);
+}
+
+#manu a:hover {
+    border-bottom: 1px solid rgb(11, 11, 65);
+}
+
+.active {
+    border-bottom: 1px solid rgb(11, 11, 65);
 }
 
 #logo,
 #menu {
-    line-height: 75px;
+    line-height: 100px;
 }
+
+
+/* Home page */
 
 .container {
     background: url('../images/hero-image.jpg');
     background-color: rgb(135, 135, 172);
-    color: black;
+    color: white;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -83,10 +102,12 @@ h2 {
 }
 
 .container h1 {
-    font-size: 100px;
+    font-size: 90px;
     z-index: 1;  
     margin: 250px 550px;
-    text-align: center;
-    
+    text-align: center;   
+}
+span{
+    font-size: 50px;
 }
     
