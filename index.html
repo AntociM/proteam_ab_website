@@ -8,14 +8,16 @@
     <meta name="description" content="Logistics company in Stragnas, Sweden">
     <meta name="keywords" content="logistics, logistics company, Stragnas, Sweden">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>ProTeamBemanning</title>
 </head>
 
 <body>
+    <!-- Logo and nav elemets -->
     <header>
         <a href="index.html">
-            <img id="logo" src="assets/images/logo.png" alt="Company logo">
+            <img id="logo" src="assets/images/logo_white.png" alt="Company logo">
         </a>
         <nav>
             <ul id="menu">
@@ -23,29 +25,51 @@
                     <a href=#>Career</a>
                 </li>
                 <li>
-                    <a href="services.html">Services</a>
+                    <a href="index.html#services">Services</a>
                 </li>
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html#" class="active">Home</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main structure -->
+    <!--  Home page -->
 
-    <section>
-        <div class="container">
-            <h1>We drive for excellence! <br> <span>Staff in warehousing and transport logistics</span></h1>
-            <div class="color-overlay"></div>
+    <section id="home">
+        <div id="cover-text">Transport and staff in warehousing</div>
+        <div id="hero_container">
+            <video id="hero-image" autoplay loop muted src="assets/images/1060479040-preview.mp4" alt="A truck on the road">
+        </div>
+        <hr style="height: 2px; background-color: #f6f7eb;">
+        <div id="motto"><br> We drive for excellence!</div>
+    </section>
+
+    <!-- Services section -->
+
+    <section id="services">
+        <div id="container-services">
+            <div id="staff">
+                <img src="assets/images/staff 1.webp"  alt="Staff in a warehouse"> 
+                <h2>Do you need staff?</h2>
+                <p> Maybe your company is facing a major expansion, a work stoppage or an unexpected vacancy. If this is the case, <em>ProTeam Bemanning</em> is the answer. We provide experienced staff in warehousing, long-distance transport, shaft, demountable trucks, crane trucks, garbage and garbage industry. </p>
+            </div>
+            <div id="transport">
+                <img src="assets/images//staff 2.webp" alt=" Truck driver in drivers cap holding mobile phone"> 
+            <h2>ProTeam as a haulier</h2>
+            <P>Since 2019, we also run the company as a haulier, driving around the clock, always on time. ProTeam Bemanning owns 5 tractors that drive freight transport throughout Sweden.</P>
+            </div>
         </div>
     </section>
-    <!- -->
-    <footer>
-        <div class="contact"><h2>Contact Us</h2> 
+
+    <!-- Footer -->
+
+    <!-- <footer id="footer">
+        <div class="container-footer">
+        <div id="contact"><h2>Contact Us</h2> 
             <p id="contact-details">Tingstugatan 44A, 64534 Strängnäs <br> +46 (0)70 3701 124 <br> info@proteambemanning.se</p>
         </div>
-        <div class="fallow-us"> 
+        <div id="fallow-us">
             <ul class="social-media">
                 <li>
                     <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -65,8 +89,8 @@
                 </li>
             </ul>
         </div>
-
-    </footer>
+        </div>
+    </footer> -->
     <!-- Font awesome script -->
 
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
