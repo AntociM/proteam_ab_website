@@ -17,19 +17,23 @@
     <!-- Logo and nav elemets -->
     <header>
         <a href="index.html">
-            <img id="logo" src="assets/images/logo_white.png" alt="Company logo">
+            <img href="index.html" id="logo" src="assets/images/logo_white.png" alt="Company logo">
         </a>
         <nav>
             <ul id="menu">
                 <li>
-                    <a href=#>Career</a>
+                    <a href=#index.html#services>Career</a>
                 </li>
                 <li>
                     <a href="index.html#services">Services</a>
                 </li>
                 <li>
-                    <a href="index.html#" class="active">Home</a>
+                    <a href="index.html#">Home</a>
                 </li>
+
+                <a href="javascript:void(0);" class="nav_bars" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </ul>
         </nav>
     </header>
@@ -39,7 +43,7 @@
     <section id="home">
         <div id="cover-text">Transport and staff in warehousing</div>
         <div id="hero_container">
-            <video id="hero-image" autoplay loop muted src="assets/images/1060479040-preview.mp4" alt="A truck on the road">
+            <img id="hero-image" src="assets/images/hero-image_cropped.jpg" alt="Aerial top view of white semi truck with cargo trailer parking with other trucks on special parking lot">
         </div>
         <hr style="height: 2px; background-color: #f6f7eb;">
         <div id="motto"><br> We drive for excellence!</div>
@@ -48,20 +52,30 @@
     <!-- Services section -->
 
     <section id="services">
-        <div id="container-services">
-            <div id="staff">
-                <img src="assets/images/staff 1.webp"  alt="Staff in a warehouse"> 
+        <!-- <div id="container-services"> -->
+            <div  class="service-grid-item">
+                <img id="staff-image" src="assets/images/staff.webp"  alt="Focused warehouse employee writing on clipboard in a large warehouse"> 
+            </div>
+
+            <div id="staff-cover" class="service-grid-item">
                 <h2>Do you need staff?</h2>
                 <p> Maybe your company is facing a major expansion, a work stoppage or an unexpected vacancy. If this is the case, <em>ProTeam Bemanning</em> is the answer. We provide experienced staff in warehousing, long-distance transport, shaft, demountable trucks, crane trucks, garbage and garbage industry. </p>
             </div>
-            <div id="transport">
-                <img src="assets/images//staff 2.webp" alt=" Truck driver in drivers cap holding mobile phone"> 
-            <h2>ProTeam as a haulier</h2>
-            <P>Since 2019, we also run the company as a haulier, driving around the clock, always on time. ProTeam Bemanning owns 5 tractors that drive freight transport throughout Sweden.</P>
-            </div>
-        </div>
-    </section>
 
+            
+            <div id="transport-cover" class="service-grid-item">
+                <h2>ProTeam as a haulier</h2>
+                <P>Since 2019, we also run the company as a haulier, driving around the clock, always on time. ProTeam Bemanning owns 5 tractors that drive freight transport throughout Sweden.</P>
+            </div>
+            <div  class="service-grid-item">
+                <img id="transport-image" src="assets/images/truck-driver.jpg" alt=" Truck driver in drivers cap holding mobile phone"> 
+            </div>
+        <!-- </div> -->
+    </section>
+    
+    <section id="career">
+
+    </section>
     <!-- Footer -->
 
     <!-- <footer id="footer">
@@ -94,6 +108,19 @@
     <!-- Font awesome script -->
 
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("menu");
+          if (x.classList.length === 0) {
+            x.className += "responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
 </body>
+
+
 
 </html>
