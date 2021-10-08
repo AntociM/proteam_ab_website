@@ -212,6 +212,34 @@ nav ul li:hover{
     }
 }
 
+/* Career section */
+#career {
+    background-color: beige;
+}
+
+.career-cover h2 {
+    text-align: center;
+    
+}
+.column {
+    float: left;
+    width: 50%;
+    background-color: aqua;
+    align-items: center;
+  }
+  
+  /* Clear floats after the columns */
+  .job:after {
+    content: "If you meet the criteria apply today!";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
     /* Footer */
 
 .container-footer {
