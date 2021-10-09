@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@300&family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
 
 * {
     margin: 0;
@@ -10,24 +10,25 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: auto;
 }
 
 
 header {
-    width:100%; 
-    background-color:#13315c; 
+    width: 100%;
+    background-color: #13315c;
     position: fixed;
 }
 
 body {
-    font-family: Lora, sans-serif;
+    font-family: 'Cardo', serif;
     font-weight: normal;
 }
 
 #logo {
     width: 200px;
     height: auto;
-    float:left;
+    float: left;
     left: 20px;
     z-index: 1000;
 }
@@ -38,7 +39,7 @@ body {
 #menu {
     font-size: 18px;
     font-weight: normal;
-    list-style-type: none; 
+    list-style-type: none;
     width: 100%;
 }
 
@@ -47,22 +48,22 @@ body {
     text-align: center;
     float: right;
     margin-right: 20px;
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 #menu a {
-    text-decoration: none;   
-    color:#FFFFFF;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
-nav ul li:hover{
-    background-color:#76a6cd; 
+nav ul li:hover {
+    background-color: #76a6cd;
 }
 
 #logo,
 #menu {
     line-height: 75px;
-} 
+}
 
 /* Menu - tablet media queries */
 @media screen and (max-width: 1024px) {
@@ -74,14 +75,14 @@ nav ul li:hover{
 
 /* Menu - mobile media queries */
 @media screen and (max-width: 500px) {
-    #menu{
+    #menu {
         /* Reverse the items */
-        display: flex; 
+        display: flex;
         flex-direction: row-reverse;
         line-height: 25px;
     }
 
-    #menu li{
+    #menu li {
         float: left;
         margin-right: 0px;
     }
@@ -107,7 +108,7 @@ nav ul li:hover{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     padding-top: 75px;
 }
@@ -116,67 +117,37 @@ nav ul li:hover{
 #hero-overlay {
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
-    align-items: right;
     text-align: left;
     vertical-align: middle;
 }
 
 #hero-overlay h1 {
     font-size: 4em;
-    font-family: 'Montserrat'; 
+    font-family: 'Oswald', sans-serif;
+    ;
     margin-top: 0;
     margin-bottom: 0.5em;
     margin-left: 2%;
     color: #f6f7eb;
-}
-
-#hero-overlay h2 {
-    font-size: 2em;
-    font-family: 'Montserrat'; 
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    margin-left: 2%;
-    color: #f6f7eb;
-}
-
-#hero-overlay h3 {
-    font-size: 2.5em;
-    font-family: 'Oswald'; 
-    margin-top: 0;
-    margin-left: 2%;
-    color:#f6f7eb;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 /* home section - tablet media queries */
 @media screen and (max-width: 1024px) {
     #hero-overlay h1 {
         font-size: 3em;
-    }
-
-    #hero-overlay h2 {
-        font-size: 2em;
-    }
-
-    #hero-overlay h3 {
-        font-size: 2em;
+        text-align: center;
     }
 }
 
 /* home section - mobile media queries */
 @media screen and (max-width: 500px) {
     #hero-overlay h1 {
-        font-size: 1.5em;
-    }
-
-    #hero-overlay h2 {
-        font-size: 1.5em;
-    }
-
-    #hero-overlay h3 {
         font-size: 1.5em;
     }
 }
@@ -187,25 +158,26 @@ nav ul li:hover{
 
 #services {
     background-color: #f6f7eb;
+    padding-bottom: 50px;
 }
 
 #grid-services {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
-    grid-gap:50px;
+    grid-gap: 50px;
     background-color: #f6f7eb;
     padding-top: 50px;
 }
 
-#grid-services p{
+#grid-services p {
     width: 650px;
     text-align: justify;
 
 }
 
 
-#grid-services h2{
+#grid-services h2 {
     width: 650px;
     text-align: justify;
 }
@@ -214,6 +186,7 @@ nav ul li:hover{
 #staff-image {
     width: 650px;
     height: auto;
+    border-radius: 20px;
 }
 
 #staff-cover {
@@ -224,12 +197,13 @@ nav ul li:hover{
 #transport-image {
     width: 650px;
     height: auto;
+    border-radius: 20px;
 }
 
 
 #transport-cover {
     font-size: 20px;
-    padding-top:20%;
+    padding-top: 20%;
 }
 
 #container-services p {
@@ -237,8 +211,8 @@ nav ul li:hover{
     text-align: justify;
     font-weight: 300;
 }
-    
-.service-grid-item{
+
+.service-grid-item {
     width: 100%;
     height: 100%;
     max-width: 100%;
@@ -251,13 +225,14 @@ nav ul li:hover{
         display: grid;
         grid-template-columns: auto;
         justify-content: center;
-        grid-gap:50px;
+        grid-gap: 50px;
     }
 
     #staff-cover {
         padding-top: 0%;
         font-size: 1em;
     }
+
     #transport-cover {
         padding-top: 0%;
         font-size: 1em;
@@ -270,35 +245,36 @@ nav ul li:hover{
         display: grid;
         grid-template-columns: auto;
         justify-content: center;
-        grid-gap:50px;
+        grid-gap: 50px;
     }
 
     #staff-image {
         width: 75vw;
         height: auto;
     }
-    
+
     #staff-cover {
         padding-top: 0%;
         width: 75vw;
         font-size: 0.7em;
     }
-    
+
     #transport-image {
         width: 75vw;
         height: auto;
     }
-    
+
     #transport-cover {
         padding-top: 0%;
         width: 75vw;
         font-size: 0.7em;
     }
 
-    #grid-services h2{
+    #grid-services h2 {
         width: 75vw;
     }
-    #grid-services p{
+
+    #grid-services p {
         width: 75vw;
     }
 }
@@ -306,41 +282,136 @@ nav ul li:hover{
 
 /* Career section */
 #career {
-    background-color: beige;
+    width: 100%;
+    height: 900px;
+    font-size: 20px;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.career-cover h2 {
-    text-align: center;
-    
+#career-picture {
+    display: flex;
+    background-image: url('../images/career-img.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    align-items: right;
+    height: inherit;
+    border-radius: 20px;
+    margin-left: 10%;
 }
-.column {
-    float: left;
+
+
+.job {
+    padding-left: 100px;
     width: 50%;
-    background-color: aqua;
-    align-items: center;
-  }
-  
-  /* Clear floats after the columns */
-  .job:after {
-    content: "If you meet the criteria apply today!";
-    display: table;
-    clear: both;
-  }
+}
 
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
+.job-req {
+    padding-left: 50px;
+}
+
+/* Form */
+
+input {
+
+    padding: 5px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #13315c;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 70%;
+    box-sizing: border-box;
+    border: 1px solid #13315c;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    padding: 10px 15px;
+    background: #ccc;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type=file] {
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: none;
+}
+
+/* Set the same font for forms placeholders*/
+textarea,
+input[type=text],
+input[type=file],
+input[type=submit] {
+    font-family: 'Cardo', serif;
+}
+
+.application-form-input::-webkit-input-placeholder {
+    /* font-family: 'myFont', Arial, Helvetica, sans-serif; */
+    font-family: 'Cardo', serif;
+}
+
+.application-form-input:-ms-input-placeholder {
+    /* font-family: 'myFont', Arial, Helvetica, sans-serif; */
+    font-family: 'Cardo', serif;
+}
+
+.application-form-input:-moz-placeholder {
+    /* font-family: 'myFont', Arial, Helvetica, sans-serif; */
+    font-family: 'Cardo', serif;
+}
+
+.application-form-input::-moz-placeholder {
+    /* font-family: 'myFont', Arial, Helvetica, sans-serif; */
+    font-family: 'Cardo', serif;
+}
+
+/* career section - mobile media queries */
+@media screen and (max-width: 1024px) {
+    #career {
+        height: 830px;
+    }
+
+    #career-picture {
+        display: none;
+    }
+
+    .job {
+        padding-left: 5vh;
+        font-size: 0.8em;
+    }
+
+    #message {
+        columns: 30;
     }
 }
-    /* Footer */
 
+@media screen and (max-width: 500px) {
+    #career {
+        height: 900px;
+    }
+
+    .job {
+        font-size: 0.6em;
+    }
+
+}
+
+/* Footer */
 .container-footer {
     height: 150px;
     width: 100%;
     justify-content: center;
     align-items: center;
     padding: 10px 0;
- }
+}
 
 .container-footer div {
     /* padding: 10px; */
@@ -348,10 +419,10 @@ nav ul li:hover{
     background-color: #13315c;
     text-align: center;
     flex-grow: 1;
- }
+}
 
 #contact {
-    text-align:center;
+    text-align: center;
 }
 
 #contact-details {
@@ -362,14 +433,15 @@ nav ul li:hover{
 #fallow-us {
     text-align: center;
 }
-.social-media > li {
-    display:inline;
+
+.social-media>li {
+    display: inline;
 }
 
 .social-media i {
     font-size: 160%;
-    color:#fafafa;
-    align-items:baseline;
+    color: #fafafa;
+    align-items: baseline;
     position: relative;
     padding: 20px;
-} 
+}

@@ -38,9 +38,8 @@
 
     <section id="home">
         <div id="hero-overlay">
-            <h1>ProTeamBemanning</h1>
-            <h2>Transport and staff in warehousing</h2>
-            <h3>We drive for excellence!</h3>
+            <h1>Staff in warehousing &</h1><br>
+            <h1>Transport logistics</h1>
         </div>
     </section>
 
@@ -48,87 +47,117 @@
 
     <section id="services">
         <div id="grid-services">
-            <div  class="service-grid-item">
-                <img id="staff-image" src="assets/images/staff.jpg"  alt="Focused warehouse employee writing on clipboard in a large warehouse"> 
+            <div class="service-grid-item">
+                <img id="staff-image" src="assets/images/staff.jpg"
+                    alt="Focused warehouse employee writing on clipboard in a large warehouse">
             </div>
 
             <div id="staff-cover" class="service-grid-item">
                 <h2>Do you need staff?</h2>
-                <p> Maybe your company is facing a major expansion, a work stoppage or an unexpected vacancy. If this is the case, <em>ProTeam Bemanning</em> is the answer. We provide experienced staff in warehousing, long-distance transport, shaft, demountable trucks, crane trucks, garbage and garbage industry. </p>
+                <p> Maybe your company is facing a major expansion, a work stoppage or an unexpected vacancy. If this is
+                    the case, <em>ProTeam Bemanning</em> is the answer. We provide experienced staff in warehousing,
+                    long-distance transport, shaft, demountable trucks, crane trucks, and garbage industry. </p>
             </div>
 
-            
+
             <div id="transport-cover" class="service-grid-item">
                 <h2>ProTeam as a haulier</h2>
-                <P>Since 2019, we also run the company as a haulier, driving around the clock, always on time. ProTeam Bemanning owns 5 tractors that drive freight transport throughout Sweden.</P>
+                <P>Since 2019, we also run the company as a haulier, driving around the clock, always on time. ProTeam
+                    Bemanning owns 5 tractors that drive freight transport throughout Sweden.</P>
             </div>
-            <div  class="service-grid-item">
-                <img id="transport-image" src="assets/images/truck-driver.jpg" alt=" Truck driver in drivers cap holding mobile phone"> 
+            <div class="service-grid-item">
+                <img id="transport-image" src="assets/images/truck-driver.jpg"
+                    alt=" Truck driver in drivers cap holding mobile phone">
             </div>
         </div>
     </section>
 
     <!-- Career section -->
-    
     <section id="career">
+        <div id="career-picture"> </div>
+
         <div class="job">
             <div class="career-cover">
-            <h2>Available jobs 10.10.2021</h2>
-            <p>Are you looking to find a new, exciting career in the field of trucking? We are hiring 1 licensed truck driver.</p>
+                <h2>Are you ready for a new challange?</h2>
+                <h2>We are hiring!</h2>
             </div>
-            <div class="column"><h3>Job responsabilites</h3>
-                <ul>
-                    <li>Drive long distances to deliver goods to customers.</li>
-                    <li>Ensuring goods are safely secured.</li>
-                    <li>Load and unload cargo.</li>
-                    <li>Record cargo deliveries.</li>
-                    <li>Keep an activities log and log hours.</li>
-                    <li>Positive attitude with customers.</li>
-                    <li>Keeping your vehicle in good condition.</li>
-                    <li>Inspect truck and record issues.</li>
+            <div>
+                <p>Minimum requirements are:</p>
+                <ul class="job-req">
+                    <li>class A CDL or commercial driver license</li>
+                    <li>clean driving record</li>
+                    <li>meet medical qualifications</li>
+                    <li>pass drug and alcohol test</li>
+                    <li>knowledge of English and Swedish language</li>
                 </ul>
             </div>
-            <div class="column"><h3>Job requirements</h3>
-                <ul>
-                    <li>Class A CDL or commercial driver license.</li>
-                    <li>Being at least 21 years old.</li>
-                    <li>Clean driving record. </li>
-                    <li>Meet medical qualifications</li>
-                    <li>Pass drug and alcohol test.</li>
-                    <li>A high school diploma.</li>
-                    <li>Knowledge of English and Swedish language.</li>
-                </ul>
+            <div class="job-form">
+                <br>
+                <h3>Apply below:</h3>
+                <form class="application-form" action="#" method="POST">
+                    <input class="application-form-input" type="text" id="fname" name="fname" placeholder="First name"
+                        required>
+                    <input class="application-form-input" type="text" id="lname" name="lname" placeholder="Last name"
+                        required><br>
+                    <input class="application-form-input" type="tel" id="phone-number" name="phone-number"
+                        placeholder="Mobile number" required><br>
+                    <input class="application-form-input" type="email" id="email" name="email" placeholder="E-mail"
+                        required><br>
+                    <input class="application-form-input" type="text" id="address" name="address" placeholder="Address"
+                        required>
+                    <input class="application-form-input" type="text" pattern="[0-9]*" id="zip" name="zip"
+                        placeholder="ZIP code" required><br>
+                    <input class="application-form-input" type="text" id="city" name="city" placeholder="City" required>
+                    <p>Are you willing to relocate?</p>
+                    <label for="yes">Yes</label>
+                    <input class="application-form-input" type="radio" id="yes" name="relocate" value="yes">
+                    <label for="no">No</label>
+                    <input class="application-form-input" type="radio" id="no" name="relocate" value="no"><br>
+                    <textarea id="message" name="message" placeholder="Leave us a message..." rows="10"></textarea><br>
+
+                    <label for="doc">Select files:</label>
+                    <input type="file" id="doc" name="doc" multiple><br>
+
+                    <input type="submit" value="Submit">
+                </form>
             </div>
-          </div>
+        </div>
 
     </section>
-    <!-- Footer -->
 
+
+    <!-- Footer -->
     <footer id="footer">
         <div class="container-footer">
-        <div id="contact"><h2>Contact Us</h2> 
-            <p id="contact-details">Tingstugatan 44A, 64534 Strängnäs <br> +46 (0)70 3701 124 <br> info@proteambemanning.se</p>
-        </div>
-        <div id="fallow-us">
-            <ul class="social-media">
-                <li>
-                    <a href="https://facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-                </li>
-            </ul>
-        </div>
+            <div id="contact">
+                <h2>Contact Us</h2>
+                <p id="contact-details">Tingstugatan 44A, 64534 Strängnäs <br> +46 (0)70 3701 124 <br>
+                    info@proteambemanning.se</p>
+            </div>
+            <div id="fallow-us">
+                <ul class="social-media">
+                    <li>
+                        <a href="https://facebook.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Twitter page (opens in a new tab)"><i
+                                class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com" target="_blank" rel="noopener"
+                            aria-label="Visit our YouTube page (opens in a new tab)"><i
+                                class="fab fa-youtube-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
     <!-- Font awesome script -->
