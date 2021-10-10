@@ -136,7 +136,6 @@ The site was deployed to GitHub pages. The steps to deploy a site are:
 - W3 Schools
 - MDN WEB DOCS 
 - coolors.co 
-- Am I responsive?
 - html from Love Running project, Code Institute-social media links in the footer
 ## Media
 -  The photos are downloader from Shutterstock
