@@ -200,7 +200,7 @@ nav ul li:hover {
 
 #transport-image {
     width: 650px;
-    height: 433;
+    height: 433px;
     border-radius: 20px;
 }
 
@@ -224,7 +224,7 @@ nav ul li:hover {
     flex-direction: column;
     justify-content: center;
     width: 650px;
-    height: 433;
+    height: 433px;
 }
 
 
@@ -347,7 +347,6 @@ nav ul li:hover {
     background-repeat: no-repeat;
     background-size: cover;
     width: 40%;
-    align-items: right;
     height: inherit;
     border-radius: 20px;
     margin-left: 10%;
