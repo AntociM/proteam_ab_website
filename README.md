@@ -91,8 +91,12 @@ and trust.
 - Gitpod - used to deploy the website.
 - Github - used to host and edit the website.
 
-## Testing ##
-Please refere testing.md for more information.
+## Testing
+Please read [testing.md](https://github.com/AntociM/proteam_ab_website/blob/main/TESTING.md) for more information.
+
+## Future work
+- The career page will be improved with collapsible structures that will allows to post more than one job ad in a organized manner.
+- A review page will be added in which past and current clients can rate the company and its services.
 
 ## Deployment 
 ### Project deployment
