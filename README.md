@@ -21,8 +21,8 @@ ProTeamBemanning is a small company in the transport and logistic field. This si
       - [Job requirements](#job-requirements)
       - [Job application form](#job-application-form)
   - [Footer](#footer)
-   - [Contact us](#contact-us)
-   - [Social media links](#social-media-links)
+    - [Contact us](#contact-us)
+    - [Social media links](#social-media-links)
 -  [Technologies used](#technologies-used)
 -  [Testig](#testing)
 -  [Deployment](#deployment)
@@ -135,14 +135,16 @@ The site was deployed to GitHub pages. The steps to deploy a site are:
 - CSS Tricks
 - W3 Schools
 - MDN WEB DOCS 
-- coolors.co
+- coolors.co 
+- Am I responsive?
+- html from Love Running project, Code Institute-social media links in the footer
 ## Media
 -  The photos are downloader from Shutterstock
 -  The photos were compressed using Tinypng
 -  Logo was transformed using Monochrome.image online
 ## Acknowledgements
-- The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. I would like to mantion and say thank you to my mentor, Precious Ijege and to all at the Code Institute for their help and support. 
-- ProTeamBemanning is a real company, just some facts are imaginary. I try a makeover of the company's website - https://5fb773bd85789.yolasitebuilder.loopia.com/
+- The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. I would like to mantion and say thank you to my mentor, Precious Ijege and to all at the Code Institute. 
+- ProTeamBemanning is a real company, just some facts are imaginary. I try a makeover of the company's website - https://5fb773bd85789.yolasitebuilder.loopia.com/.
 
 
 The live link to the Github repository can be found here: https://antocim.github.io/proteam_ab_website/
