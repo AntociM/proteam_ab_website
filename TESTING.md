@@ -20,7 +20,7 @@ The responsiveness was tested using three different tools:
 From which Chrome Developer Tools proved to be the most efficient, as it provided a wide range of device emulations. 
 
 ## Compatibility
-The website was tested on Chrome, Edge, Mozilla Firefox. the functionality and appereance remains unchanged between these three on any device size. Even though the website was 
+The website was tested on Chrome, Edge, Mozilla Firefox. The functionality and appereance remains unchanged between these three on any device size. Even though the website was 
 written using fundamental HTML and CSS, it does not guarantee compatibility on other browsers.
 
 ## Lighthouse
@@ -30,8 +30,6 @@ that were causing a slowdown. Here are the final results:
 
 
 ## Known issues
-1. On Iphone 5/SE, the text on service page does not scale down as it should, and it becomes a hard to read.
-2. The `textarea` in the comment section doesn't not scale well, and it becomes way to short compared to the others froms. Visible on mobile devises.
+1. On Iphone 5/SE, the text on service page does not scale down as it should, and it becomes hard to read.
+2. The `textarea` in the comment section doesn not scale well, and it becomes way to short compared to the others form-boxes. Visible on mobile devices.
 3. When clicking on the navigation bar, the view does not jump at the beggining of the section and some test will end up getting cut off.
-
-
